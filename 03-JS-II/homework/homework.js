@@ -5,7 +5,14 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-}
+  var x=10, y=20;
+  if (x<y){
+    return x;
+  }else if(y>x){ 
+    return y;}
+  else if (x>y || y>x){
+    return x +" y "+ y+ " son iguales" 
+  }
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
