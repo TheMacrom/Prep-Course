@@ -213,9 +213,11 @@ function doWhile(numero) {
   //Retornar el valor final.
   //Usar el bucle do ... while.
   var a=numero;
+  var i=0;
   do{
     a=a+5;
-  }while(i=0; i<8; i++);
+    i++;
+  }while(i<8);
   return a;
 }
 
