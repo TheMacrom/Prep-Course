@@ -157,13 +157,13 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   if(numero<2){
-    return "False";
+    return false;
   }
   for (i=1; i<=20; i++){
     if(numero%i===0){
-      return "true";
+      return true;
     }else{
-      return "falso";
+      return false;
     }
   }
 }
@@ -184,7 +184,7 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí  
   var arraytablaDel6=[] 
-  for (i===0; i<=10; i++){
+  for (i===0; i<11; i++){
     arraytablaDel6.push(6*i);
   }
   return arraytablaDel6;
@@ -194,9 +194,9 @@ function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
   if(numero>99 && numero<1000){
-    return "true";
+    return true;
   }else{
-    return "false";
+    return false;
   }
 }
 
