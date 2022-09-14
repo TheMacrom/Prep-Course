@@ -106,7 +106,7 @@ function numeroMasGrande(numeros) {
       grande = numeros[i];
     }
   }
-  return numeros grande;
+  return grande;
 }
 
 
