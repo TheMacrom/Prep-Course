@@ -100,7 +100,13 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  return numeros.Math.max();
+  var grande = numeros[0];
+  for (var i=0; i<numeros.length; i++){
+    if (numeros[i]> grande){
+      grande = numeros[i];
+    }
+  }
+  return numeros grande;
 }
 
 
